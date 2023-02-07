@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav__responsive-ul{
+    display: none;
+}
+
+nav{
+    background-color: rgb(132, 132, 240);
+    
+}
+
+.nav__li{
+    display: inline-block;
+    padding: 10px ;
+    
+}
+
+.nav__li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__li a:hover {
+    color: black;
+    
+}
+
+@media only screen and (max-width: 500px){
+   .nav__ul{
+    display: none;
+   }
+
+   .nav__responsive-ul{
+    display: block;
+   }
+
+}
